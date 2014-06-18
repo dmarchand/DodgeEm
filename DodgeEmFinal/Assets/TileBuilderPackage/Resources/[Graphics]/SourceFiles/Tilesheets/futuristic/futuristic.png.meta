@@ -1,0 +1,292 @@
+fileFormatVersion: 2
+guid: aa85441fe15264b83ba4544d68554141
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 127
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: 13
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: futuristic_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1787
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_1
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1787
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_2
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1787
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_3
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1787
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_4
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1787
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_5
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1787
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_6
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 1787
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1527
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1527
+        width: 258
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_9
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1527
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_10
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1527
+        width: 258
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_11
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1527
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_12
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1527
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_13
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 1527
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1267
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_15
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1267
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_16
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1267
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_17
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1267
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_18
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1267
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_19
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1267
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_20
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 1267
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1007
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_22
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1007
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_23
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1007
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_24
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1007
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_25
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1007
+        width: 518
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: futuristic_26
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 1007
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

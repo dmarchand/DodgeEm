@@ -8,6 +8,7 @@ public class TurretController : MonoBehaviour {
 	public float FireDelay;
 	public float PathTravelTime;
     public string PathName;
+    public float InitialDelay;
 
 	public GameObject ProjectilePrototype;
 
@@ -25,7 +26,7 @@ public class TurretController : MonoBehaviour {
 
 
 
-		timeUntilNextRound = RoundDelay;
+		timeUntilNextRound = InitialDelay;
 	}
 	
 	// Update is called once per frame

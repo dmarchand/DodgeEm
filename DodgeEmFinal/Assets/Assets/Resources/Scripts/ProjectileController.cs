@@ -18,7 +18,7 @@ public class ProjectileController : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D coll) {
-		if(DestroyOnDeath)
+		if(DestroyOnDeath && coll.gameObject.GetComponent<ProjectileController>() == null)
 		{
 			Destroy(this.gameObject);
 		}

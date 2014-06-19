@@ -5,3 +5,10 @@ DodgeEmFinal/Untitled.app
 DodgeEmFinal/web
 DodgeEmFinal/Library
 DodgeEmFinal/Temp
+DodgeEmFinal/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+*.force
+*.suo
+*.DotSettings
+*.sln
+*.unityproj
+*.csproj

@@ -6,8 +6,8 @@ public class TurretController : MonoBehaviour {
 	public int ProjectilesPerRound;
 	public float RoundDelay;
 	public float FireDelay;
-	public float ProjectileSpeed;
-	public HorizontalProjectileMovement.HorizontalDirection Direction;
+	public float PathTravelTime;
+    public string PathName;
 
 	public GameObject ProjectilePrototype;
 
@@ -46,9 +46,9 @@ public class TurretController : MonoBehaviour {
 			{
 
 				GameObject result = (GameObject)Instantiate(ProjectilePrototype);
-				HorizontalProjectileMovement movement = result.GetComponent<HorizontalProjectileMovement>();
-				movement.Speed = ProjectileSpeed;
-				movement.Direction = Direction;
+                PathProjectileMovement movement = result.GetComponent<PathProjectileMovement>();
+                movement.PathTravelTime = PathTravelTime;
+                movement.PathName = PathName;
 				result.transform.position = this.transform.position;
 				timeUntilNextShot = FireDelay;
 				numActiveProjectiles++;

@@ -233,6 +233,7 @@ public class APCharacterMotor : MonoBehaviour
 			Vector3 vel = rigidbody2D.velocity;
 			Debug.DrawLine(transform.position, transform.position + vel, Color.green);
 		}
+
 	}
 
 	void ClearRaysCollisionInfo(CharacterRay2D[] rays)

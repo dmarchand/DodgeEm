@@ -415,7 +415,7 @@ public class APCharacterController : MonoBehaviour
 		}
 	}
 
-	void SetInputs()
+	protected virtual void SetInputs()
 	{
 		if(m_jump.m_enabled && m_jump.m_button.IsSpecified() && m_jump.m_button.GetButtonDown())
 		{
@@ -454,7 +454,7 @@ public class APCharacterController : MonoBehaviour
 		}
 	}
 
-	void UnsetInputs()
+	protected void UnsetInputs()
 	{
 		// reset inputs after amount of time
 		if(m_jumpDown && (Time.time >= m_jumpButtonTimeDown + m_advanced.m_downPushDuration))
@@ -492,7 +492,7 @@ public class APCharacterController : MonoBehaviour
 		HandleCarry();
 	}
 
-	void UpdateController()
+	protected void UpdateController()
 	{
 		// Update inputs in all case (may be used by other objects)
 		HandleInputFilter();

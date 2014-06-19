@@ -7,7 +7,9 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 0
     path: Assets/AdvancedPlatformer2D/scenes/Melee Attack.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/AdvancedPlatformer2D/scenes/Basics.unity
   - enabled: 0
     path: Assets/AdvancedPlatformer2D/scenes/Ranged Attack.unity
+  - enabled: 1
+    path: Assets/Assets/Resources/Scenes/Prototype.unity
